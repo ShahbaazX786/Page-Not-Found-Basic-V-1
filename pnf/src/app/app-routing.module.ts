@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {path:'pnf',component:PNFComponent},
-  {path:'',redirectTo:'pnf',component:PNFComponent},
+  {path:'**',component:PNFComponent},
 ];
 
 @NgModule({
