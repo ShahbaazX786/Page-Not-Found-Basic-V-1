@@ -1,7 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
+# /dist #commenting this line to upload build files into github from dist folder.
 /tmp
 /out-tsc
 /bazel-out
